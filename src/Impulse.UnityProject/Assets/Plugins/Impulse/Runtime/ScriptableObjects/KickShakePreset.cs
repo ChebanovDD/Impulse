@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Impulse.ScriptableObjects
 {
-    [CreateAssetMenu(fileName = "KickShake", menuName = "EasyShake Presets/KickShake", order = 0)]
+    [CreateAssetMenu(fileName = "KickShake", menuName = "Impulse Presets/KickShake", order = 0)]
     public class KickShakePreset : ShakePreset
     {
         [SerializeField] private KickShake.Params _params;
